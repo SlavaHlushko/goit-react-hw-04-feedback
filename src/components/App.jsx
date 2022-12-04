@@ -1,8 +1,8 @@
 import { Container } from './App.styled';
 import { Component } from 'react';
-import { Statistics } from './Statistics/Statistics';
-import { FeedbackList } from './FeedbackList/FeedbackList';
-import { Notification } from './Notification/Notification';
+import { Statistics } from './statistics/Statistics';
+import { FeedbackList } from './feedbackList/FeedbackList';
+import { Notification } from './notification/Notification';
 
 export class App extends Component {
   state = {
