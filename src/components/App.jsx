@@ -37,7 +37,7 @@ export class App extends Component {
 
     const options = Object.keys(this.state);
 
-    const PositiveFeedbackPercentage = this.countPositiveFeedbackPercentage();
+    const positiveFeedbackPercentage = this.countPositiveFeedbackPercentage();
 
     return (
       <Container>
@@ -52,7 +52,7 @@ export class App extends Component {
             neutral={neutral}
             bad={bad}
             totalFeedback={totalFeedback}
-            PositiveFeedbackPercentage={PositiveFeedbackPercentage}
+            PositiveFeedbackPercentage={positiveFeedbackPercentage}
           />
         ) : (
           <Notification message="There is no feedback" />
