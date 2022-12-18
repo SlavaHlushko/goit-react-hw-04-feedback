@@ -15,7 +15,7 @@ export const App = () => {
 
   const countPositiveFeedbackPercentage = () => {
     return Number.parseInt(
-      countTotalFeedback() > 0 ? (good / this.countTotalFeedback()) * 100 : 0
+      countTotalFeedback() > 0 ? (good / countTotalFeedback()) * 100 : 0
     );
   };
 
